@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="CakeComunity.Entities"
+                   assembly="CakeComunity">
+  <class name="Employee" table="employees">
+    <id name="Id">
+      <generator class="identity"/>
+    </id>
+    <property name="Login"/>
+    <property name="Password"/>
+    <property name="FullName"/>
+    <property name="CreateDate"/>
+    <property name="WalletGuid"/>
+    <property name="IsAdmin"/>
+    <property name="IsActive"/>
+    
+
+  </class>
+</hibernate-mapping>

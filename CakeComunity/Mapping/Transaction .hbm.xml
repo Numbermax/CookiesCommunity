@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="CakeComunity.Entities"
+                   assembly="CakeComunity">
+  <class name="Transact" table="transacts">
+    <id name="Id">
+      <generator class="identity"/>
+    </id>
+    <property name="CreateDate"/>
+    <property name="Type"/>
+    <property name="Summ"/>
+    <property name="Source"/>
+    <property name="Target"/>
+
+
+  </class>
+</hibernate-mapping>
